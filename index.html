@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Change Calculator</title>
+    <link rel="stylesheet" type="text/css" href="bulma.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+    <header>Change Calculator</header>
+    <div>
+        <p>How much is due for the sale?</p>
+        <input id="amountDue" type="text" name="amount due">
+    </div>
+    <div>
+        <p>How much has the customer given you?</p>
+        <input id="amountGiven" type="text" name="amount given">
+    </div>
+    <div>
+        <button id="calcChange">Calculate Change</button>
+    </div>
+    <div>
+        <p id="output"></p>
+    </div>
+    <div class="container">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Denomination</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dollars</td>
+                    <td id='dollars'></td>
+                </tr>
+                <tr>
+                    <td>Quarters</td>
+                    <td id='quarters'></td>
+                </tr>
+                <tr>
+                    <td>Dimes</td>
+                    <td id='dimes'></td>
+                </tr>
+                <tr>
+                    <td>Nickels</td>
+                    <td id='nickels'></td>
+                </tr>
+                <tr>
+                    <td>Pennies</td>
+                    <td id='pennies'></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
